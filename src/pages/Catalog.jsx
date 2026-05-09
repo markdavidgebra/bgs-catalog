@@ -62,7 +62,7 @@ export default function Catalog() {
     setLoading(true);
     setError(null);
     try {
-      const result = await fetchCatalog({ type: activeTab, search, include: 'services' });
+      const result = await fetchCatalog({ type: activeTab, search });
       setData(result);
     } catch (e) {
       setError('Could not load catalog. Please try again later.');
