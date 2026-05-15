@@ -97,7 +97,7 @@ export default function Catalog() {
     <div>
       {/* Hero */}
       <div className="catalog-hero">
-        <h1> <span>Bio Global Solutions</span></h1>
+        <h1> <span>Bio Glow Solutions</span></h1>
         <p>Discover our products, services & wellness packages</p>
 
         <div className="search-wrapper">
